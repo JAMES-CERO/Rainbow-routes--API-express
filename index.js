@@ -31,7 +31,7 @@ app.get('/:color', (req, res) => {
             </div>
 
             <h1 style="color: ${myColor};">
-                 ${myColor} Page
+                 ${myColor.charAt(0).toUpperCase() + myColor.slice(1)} Page
             </h1>
         </body>
     `)
